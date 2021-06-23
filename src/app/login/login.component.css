@@ -4,21 +4,25 @@ mat-card {
   text-align: center;
   max-height: 600px;
 }
-
+/* input[type="email"],input[type="password"]{
+  width:240px;
+  height:44px;
+  margin-bottom: 20px;
+}
+mat-icon-button{
+position: absolute;
+background: #fff;
+margin-right: 18px;;
+margin-top: 1px;
+width:44px;
+height: 36px;
+padding-top: 8px;
+} */
 .header {
   text-align: center;
 }
 .full-width {
   width: 80%;
-}
-
-.button-row {
-  padding-top: 5px;
-}
-
-.button-row a {
-  margin-right: 8px;
-  text-align: center;
 }
 
 .forget-password {
@@ -30,11 +34,10 @@ mat-card {
   padding-top: 10px;
 }
 
-
-
 .aLink {
   float: right;
   padding-right: 60px;
+  margin-bottom: 20px;
   text-decoration: none;
 }
 
